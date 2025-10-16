@@ -36,6 +36,7 @@ body {
 }
 
 .nav-logo a {
+  /* Yuyan styles */
   font-size: 1.5rem;
   font-weight: 700;
   color: #2c3e50;
@@ -87,25 +88,33 @@ body {
 }
 
 .bar {
-  width: 25px;
+  width: 250px;
   height: 3px;
   background-color: #333;
-  margin: 3px 0;
+  margin: 300px 0;
   transition: 0.3s;
 }
 
 .school-container {
   text-align: center;
-  padding: 100px 20px 20px;
-  background-color: #f3f1ec; /* 定义学校栏颜色 （0=#f5f5f5）*/
+  padding: 15px 15px 15px;
+  background-color: #979793; /* 定义section3背景颜色 （0=#f5f5f5）*/
   border-bottom: 1px solid #ddd;
+}
+
+.school-content p {
+  margin: 1px 0;
+  font-size: 0.8rem;
+  color: #ddd; /* 定义section3字体颜色 （0=#333）*/
+  font-weight: 10;
 }
 
 /* 主题style (photo left, text right) */
 .intro-section {
   /* 定义边距 */
-  max-width: 900px;
-  margin: 40px auto 0;
+  max-width: 950px;
+  max-height: 900px;
+  margin: 120px auto 0;
   padding: 32px 24px;
 }
 
@@ -116,13 +125,13 @@ body {
 }
 /* 调整图片 */
 .intro-photo {
-  flex: 0 0 300px;
+  flex: 0 0 240px;
 }
 
 .intro-photo img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 16px;
   display: block;
 }
 
@@ -156,6 +165,7 @@ body {
   height: 20px;
   object-fit: contain;
   flex-shrink: 0;
+  filter: grayscale(100%); /* 默认灰色图标 */
 }
 
 .label span {
@@ -165,7 +175,7 @@ body {
 /* 调整文本 */
 .intro-text {
   flex: 10;
-  max-width: 600px;
+  max-width: 1000px;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -183,6 +193,14 @@ body {
 
 .intro-text p {
   margin: 0 0 10px;
+}
+
+.yanyu_intro {
+  margin-top: 10px;
+  text-align: justify; /* 两端对齐（待调整）*/
+  font-size: 15px;
+  line-height: 1.75;
+  color: #444; /* 定义简介字体颜色 （0=#555）*/
 }
 
 /* Profile Photo */
@@ -567,6 +585,15 @@ html {
   color: #333;
   margin-bottom: 2rem;
   text-align: left;
+}
+
+.work-in-progress {
+  margin-top: 40px;
+  padding: 2rem 0;
+  background: #ffffff;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .paper {
