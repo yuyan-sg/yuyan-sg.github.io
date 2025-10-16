@@ -1,110 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yu Yan (鄢瑜)</title>
+    <link rel="stylesheet" href="wesite color.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <!-- 开始 -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yu Yan - National University of Singapore</title>
-  <link rel="stylesheet" href="wesite color.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-</head>
-<!-- 开始 -->
-
-<body>
-  <!-- 导航标签 -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <!--<div class="nav-logo">
-        <a href="#home"></a>-->
-        <!-- 删掉了yu yan 导航 -->
-      <div class="nav-menu" id="nav-menu">
-        <a href="#home" class="nav-link">Home</a>
-        <a href="reserch.html" class="nav-link">Research</a>
-        <a href="Yu Yan's CV.pdf" class="nav-link">CV</a>
+  <body>
+    <!-- section1 导航标签 -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">Yu Yan</a>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="reserch.html" class="nav-link">Research</a>
+          <a href="Yu Yan's CV.pdf" class="nav-link">CV</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </div>
-      <div class="nav-toggle" id="nav-toggle">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+    </nav>
+
+    <!-- section2 -->
+
+    <!-- Intro Section: photo left, text right -->
+    <section id="home" class="intro-section">
+      <div class="intro-wrapper">
+        <div class="intro-photo">
+          <img src="yanyu.png" alt="Yu Yan" />
+        </div>
+        <div class="intro-text">
+          <h1>Yu Yan（鄢瑜）</h1>
+          <p>Welcome to my website!</p>
+          <p class="yanyu_intro">
+            I'm a Ph.D. candidate in Finance at National University of Singapore
+            (NUS) Business School. My research interests focus on FinTech,
+            Decentralized Finance (DeFi), Corporate Governance, and Innovation
+            and Entrepreneurship. My work focuses on promoting the sustainable
+            growth of emerging technology ventures, spanning topics from
+            decentralized governance in Web3 to the influence of open innovation
+            on entrepreneurial activity. I’m on the 2025-2026 job market.
+          </p>
+          <p>I’m on the 2025-2026 job market.</p>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- 学校信息 -->
-  <section id="School" class="name">
-    <div class="school-container">
-      <div class="school-content">
-        <h1>Yu Yan（鄢瑜）</h1> <!-- 中文字体需要调整 -->
-        <p>Ph.D. Candidate in Finance</p>
-        <p> National University of Singapore</p>
-        <p class="subtitle">
-  </section>
 
-  <!-- Intro styles moved to external CSS -->
+      <!-- 链接 -->
+      <div class="label">
+        <div class="label-item">
+          <img src="location.png" alt="location" class="label-icon" />
+          <span>Singapore</span>
+        </div>
 
-  <!-- Intro Section: photo left, text right -->
-  <section id="home" class="intro-section">
-    <div class="intro-wrapper">
-      <div class="intro-photo">
-        <img src="yanyu.png" alt="Yu Yan" />
+        <a href="mailto:yu.yan@n.nus.edu" class="social-link">
+          <img src="email.png" alt="Email Icon" class="label-icon" />
+          <span>Email</span>
+        </a>
+
+        <a
+          href=" https://scholar.google.com/citations?user=qvqqSq0AAAAJ&hl=en&oi=ao"
+          class="social-link"
+        >
+          <img
+            src="Google_Scholar_logo.png"
+            alt="Google Scholar"
+            class="label-icon"
+          />
+          <span>Google Scholar</span>
+        </a>
+
+        <!-- <a
+          href=" https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7465172"
+          class="social-link"
+        >
+          <img src="ssrn.jpg" alt="ssrn" class="label-icon" />
+          <span>SSRN</span>
+        </a> -->
+
+        <a
+          href="https://www.linkedin.com/in/yu-yan-738344204/"
+          class="social-link"
+        >
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+
+        <!-- <a
+          href="https://www.linkedin.com/in/yu-yan-738344204/"
+          target="_blank"
+          class="social-link"
+        >
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a> -->
       </div>
-      <div class="intro-text">
-        <h1>Welcome to my website!</h1>
-        <p>
-          I'm a Ph.D. candidate in Finance at National University of Singapore
-          (NUS) Business School. My research interests focus on FinTech,
-          Decentralized Finance (DeFi), corporate governance, and innovation
-          and entrepreneurship. My work explores how emerging technologies
-          reshape organizational design, governance, and entrepreneurial
-          activity.
-        </p>
-        <p>I’m on the 2025-2026 job market.</p>
+    </section>
+
+    <!-- section3 学校信息 -->
+    <section id="School" class="name">
+      <div class="school-container">
+        <div class="school-content">
+          <p>NUS Business School</p>
+          <!-- 中文字体需要调整 -->
+          <p>Biz 2 Building, 1 Business Link</p>
+          <p>Singapore, 117592</p>
+          <p>Email: yu.yan@nus.edu.sg</p>
+          <!-- <p class="subtitle">
+                    <div>Email: yu.yan@nus.edu.sg</div>
+                </p> -->
+        </div>
       </div>
-    </div>
-<div class="label">
-      <a href="https://www.linkedin.com/in/yu-yan-738344204/" class="social-link">
-        <i class="fab fa-linkedin"></i>
-        <span>LinkedIn</span>
-      </a>
-      <div class="label-item">
-        <img src="location.png" alt="location" class="label-icon">
-        <span>Singapore</span>
-      </div>
-      <a href=" https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7465172" class="social-link">
-        <img src="ssrn.jpg" alt="ssrn" class="label-icon" />
-        <span>SSRN</span>
-      </a>
-      <a href="mailto:yu.yan@n.nus.edu" class="social-link">
-        <img src="email.png" alt="Email Icon" class="label-icon" />
-        <span>Email</span>
-      </a>
-    </div>
-    
-  </section>
+    </section>
 
+    <!-- (About section merged into intro layout above) -->
 
-  <!-- (About section merged into intro layout above) -->
+    <!-- JavaScript for mobile navigation -->
+    <script>
+      const navToggle = document.getElementById("nav-toggle");
+      const navMenu = document.getElementById("nav-menu");
 
-  <!-- JavaScript for mobile navigation -->
-  <script>
-    const navToggle = document.getElementById("nav-toggle");
-    const navMenu = document.getElementById("nav-menu");
-
-    navToggle.addEventListener("click", () => {
-      navMenu.classList.toggle("active");
-      navToggle.classList.toggle("active");
-    });
-
-    // Close mobile menu when clicking on a link
-    document.querySelectorAll(".nav-link").forEach((link) => {
-      link.addEventListener("click", () => {
-        navMenu.classList.remove("active");
-        navToggle.classList.remove("active");
+      navToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        navToggle.classList.toggle("active");
       });
-    });
-  </script>
-</body>
 
-
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active");
+          navToggle.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
 </html>
-
